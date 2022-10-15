@@ -1,3 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #B9DBC1;
+}
+
+
+
 h2 {
     font-size: 2rem;
 }
@@ -13,4 +24,21 @@ header {
 nav li {
     display: inline-flex;
     margin: 10px;
+}
+
+#about-me-text-container {
+    max-width: 600px;
+}
+
+
+img {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+
+#about-me {
+    display: flex;
+    flex-wrap: wrap;
 }
