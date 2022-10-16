@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Mulish', sans-serif;
+}
+
 
 body {
     background-color: #B9DBC1;
@@ -28,6 +32,7 @@ nav li {
 
 #about-me-text-container {
     max-width: 600px;
+    font-size: 1.2rem;
 }
 
 
@@ -36,9 +41,23 @@ img {
     width: auto; 
     max-width: 300px; 
     max-height: 300px;
+    border-radius: 5px;
 }
 
 #about-me {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 320px) {
+    main {
+        width: 100%;
+    }
 }
