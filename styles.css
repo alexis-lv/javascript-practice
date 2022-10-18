@@ -70,3 +70,13 @@ a {
 a:hover {
     color: #2EA85B;
 }
+
+p.project-text {
+    margin-left: 1vw;
+    max-width: 31rem;
+}
+
+img.project-image {
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
