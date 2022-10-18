@@ -80,3 +80,13 @@ img.project-image {
     margin-top: 1vw;
     margin-left: 1vw;
 }
+
+#skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+i.fa {
+    padding: 5px;
+}
