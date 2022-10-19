@@ -94,3 +94,8 @@ i.fa {
 #footer {
     text-align: center;
 }
+
+summary {
+    margin: 3px;
+    cursor: pointer;
+}
